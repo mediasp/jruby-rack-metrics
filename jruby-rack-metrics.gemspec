@@ -23,7 +23,9 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "jruby-rack-metrics.gemspec",
-    "lib/jruby-rack-metrics.rb"
+    "lib/jruby-rack-metrics.rb",
+    "lib/metrics-core.jar",
+    "lib/metrics-annotation.jar",
   ]
   s.homepage = %q{http://github.com/nicobrevin/jruby-rack-metrics}
   s.licenses = ["ASL 2.0"]
