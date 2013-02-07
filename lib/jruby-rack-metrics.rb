@@ -3,6 +3,10 @@ require 'uri'
 require 'java'
 require 'rack'
 
+require 'slf4j-api'
+require 'metrics-core'
+require 'metrics-annotation'
+
 java_import 'java.lang.System'
 java_import 'java.util.concurrent.TimeUnit'
 java_import 'com.yammer.metrics.Metrics'

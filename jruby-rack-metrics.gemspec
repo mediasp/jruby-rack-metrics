@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "jruby-rack-metrics.gemspec",
     "lib/jruby-rack-metrics.rb",
+    "lib/slf4j-api.jar",
     "lib/metrics-core.jar",
     "lib/metrics-annotation.jar",
   ]
