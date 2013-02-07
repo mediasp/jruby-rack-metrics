@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{jruby-rack-metrics}
+  s.name = %q{jruby-rack-metrics-msp}
   s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Thomas Dudziak"]
+  s.authors = ["Thomas Dudziak", "Nick Griffiths"]
   s.date = %q{2011-09-15}
-  s.description = %q{A simple rack app wrapper that gathers request metrics using Coda Hale's metrics library}
+  s.description = %q{A simple rack app wrapper that gathers request metrics using Coda Hale's metrics library - MSP fork}
   s.email = %q{tomdzk@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "jruby-rack-metrics.gemspec",
     "lib/jruby-rack-metrics.rb"
   ]
-  s.homepage = %q{http://github.com/tomdz/jruby-rack-metrics}
+  s.homepage = %q{http://github.com/nicobrevin/jruby-rack-metrics}
   s.licenses = ["ASL 2.0"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.1}
