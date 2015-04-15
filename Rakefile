@@ -15,9 +15,9 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Thomas Dudziak", "Nick Griffiths"]
   gem.add_runtime_dependency 'rack', '~> 1.1'
   gem.add_development_dependency "shoulda", ">= 0"
-  gem.add_development_dependency "bundler", "~> 1.0.0"
-  gem.add_development_dependency "jeweler", "~> 1.6.4"
-  gem.add_development_dependency "rcov", "~> 0.9.11"
+  gem.add_development_dependency "bundler", "~> 1.0"
+  gem.add_development_dependency "jeweler", "~> 1.6"
+  gem.add_development_dependency "rcov", "~> 0.9"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
