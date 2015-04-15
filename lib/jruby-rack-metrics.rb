@@ -51,7 +51,7 @@ module JrubyRackMetrics
         ensure
           elapsed = System.nanoTime() - start_time
           # some web servers give us the full url, some only the path part
-          uri = URI.parse(env['REQUEST_URI'])
+          uri = URI.parse(env['PATH_INFO'])
           if defined? uri.path && !uri.path.nil?
             metric_name = build_metric_name(uri, env, status, headers, body)
             metrics_registry.newTimer(metric_name,
